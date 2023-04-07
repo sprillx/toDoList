@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="todo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Assistant&family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+       <div id="outer-layer">
+            <h1>  Things to do </h1>
+            <div class="toAdd">
+            <input id="listValue" type="text" placeholder="Add"> 
+            <button onclick="addToTheList()"> add </button>
+            </div>
+            <ul id="ToDoList">
+                <li id="task1"> Finish HomeWork  <button  id="myCheck" onclick="myFunction()"> Remove </button> </li>
+                <li id="task2"> Finish Working Out <button id="myCheck2" onclick="myFunction2()"> Remove  </li>
+                <li id="task3"> finish 4 assessments  <button id="myCheck3" onclick="myFunction3()">  Remove </button> </li>
+            </ul>
+       </div>
+
+
+    <script src="todo.js"></script>
+    </body>
+</html>
